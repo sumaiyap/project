@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_REGISTRY = "hub.docker.com"
+        DOCKER_REGISTRY = "docker.io"
         DOCKER_IMAGE_NAME = "sumaiyap/python-web"
         DOCKER_IMAGE_TAG = "v2"
     }
