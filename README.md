@@ -6,6 +6,10 @@ This small repo demonstrates a proper file structure for a Flask app. The folder
 
 The template file `base.html` is used as a shell by the other three HTML templates. This means they insert content into `base.html` according to Jinja2 template rules.
 
-After installing all dependencies, run the app by entering its folder and typing:
+## RUN 
+docker build -t <tagname> .
 
-`$ python routes.py`
+docker run --name \<conatainernm\> -p \<hostPort\>:\<containerPort\> -d \<imagename\>
+
+## ACCESS
+to access navigate to http://\<publicip\>:\<hostport\>
